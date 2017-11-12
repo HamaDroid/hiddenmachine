@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hmdroid.wazamachine.about_whirlpool">
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="水上では渦の上を移動できます。バトルでは相手を4~5ターンの間だけ渦に沈めることができます。"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView116"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="ヒント:相手の交代を封じ込めるだけなのでこちらも強い攻撃を使用したほうがいいです。"
+        android:textColor="@android:color/holo_green_light" />
+
+</RelativeLayout>

@@ -33,7 +33,11 @@
         <activity android:name=".flash" />
         <activity android:name=".about_flash" />
         <activity android:name=".defog" />
-        <activity android:name=".about_defog"></activity>
+        <activity android:name=".about_defog" />
+        <activity android:name=".whirlpool" />
+        <activity android:name=".about_whirlpool" />
+        <activity android:name=".water_fall" />
+        <activity android:name=".dive"></activity>
     </application>
 
 </manifest>

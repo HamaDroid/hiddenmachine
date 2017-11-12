@@ -21,5 +21,9 @@ public class choose_05 extends AppCompatActivity {
         Intent intent = new Intent(this, flash.class);
         startActivity(intent);
     }
+    public void whirlpool(View view){
+        Intent intent = new Intent (this,whirlpool.class);
+        startActivity(intent);
+    }
 }
 

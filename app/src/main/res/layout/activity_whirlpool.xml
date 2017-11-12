@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hmdroid.wazamachine.whirlpool">
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:text="名前:うずしお"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView100"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:text="タイプ:"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView101"
+        android:layout_alignBottom="@+id/textView101"
+        android:layout_toEndOf="@+id/textView101"
+        android:layout_toRightOf="@+id/textView101"
+        android:text="水"
+        android:textColor="#2196F3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView101"
+        android:layout_alignStart="@+id/textView101"
+        android:layout_below="@+id/textView101"
+        android:text="命中率:"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView110"
+        android:layout_alignBottom="@+id/textView110"
+        android:layout_toEndOf="@+id/textView110"
+        android:layout_toRightOf="@+id/textView110"
+        android:text="RSまで"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView104"
+        android:layout_toEndOf="@+id/textView103"
+        android:layout_toRightOf="@+id/textView103"
+        android:text="DP以降"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView105"
+        android:layout_toEndOf="@+id/textView105"
+        android:layout_toRightOf="@+id/textView105"
+        android:text="15"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView106"
+        android:layout_toEndOf="@+id/textView105"
+        android:layout_toRightOf="@+id/textView105"
+        android:text="35"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView103"
+        android:layout_marginTop="40dp"
+        android:layout_toLeftOf="@+id/textView104"
+        android:layout_toStartOf="@+id/textView104"
+        android:text="PP:"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView108"
+        android:layout_toEndOf="@+id/textView103"
+        android:layout_toRightOf="@+id/textView103"
+        android:text="15"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView108"
+        android:layout_toLeftOf="@+id/textView109"
+        android:layout_toStartOf="@+id/textView109"
+        android:text="威力:"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView101"
+        android:layout_toEndOf="@+id/textView101"
+        android:layout_toRightOf="@+id/textView101"
+        android:text="DPまで"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView102"
+        android:layout_toEndOf="@+id/textView111"
+        android:layout_toRightOf="@+id/textView111"
+        android:text="70"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView111"
+        android:layout_alignStart="@+id/textView111"
+        android:layout_below="@+id/textView111"
+        android:text="BW・BW2以降"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView109"
+        android:layout_toEndOf="@+id/textView113"
+        android:layout_toRightOf="@+id/textView113"
+        android:text="85"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView105"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:onClick="about"
+        android:text="詳細"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView110"
+        android:layout_alignStart="@+id/textView110"
+        android:layout_below="@+id/textView105"
+        android:text="分類:特殊"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+</RelativeLayout>
