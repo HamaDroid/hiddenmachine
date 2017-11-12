@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="hmdroid.wazamachine.about_defog">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:text="相手の回避率を一段階下げます。　　　　相手側のひかりのかべやリフレクター、きりの状態などの効果をなくせる技です。　フィールド上では視界を元に戻すこともできます。"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView99"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="32dp"
+        android:text="ヒント:DPではマジックコートの影響を受けません"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp" />
+</RelativeLayout>

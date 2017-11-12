@@ -14,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="59dp"
-        android:text="ファイアレッド・リーフグリーン以前" />
+        android:text="金・銀・クリスタル" />
 
     <Button
         android:id="@+id/button10"
@@ -24,7 +24,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button9"
         android:layout_marginTop="24dp"
-        android:text="ダイアモンド・パール・プラチナ" />
+        android:text="RSE~HGSS" />
 
     <Button
         android:id="@+id/button11"
@@ -34,7 +34,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button10"
         android:layout_marginTop="25dp"
-        android:text="ハートゴールド・ソウルシルバー" />
+        android:text="ブラック・ホワイトまたは２" />
 
     <Button
         android:id="@+id/button12"
@@ -44,6 +44,6 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button11"
         android:layout_marginTop="22dp"
-        android:text="ブラック・ホワイトまたはそれ以降" />
+        android:text="オメガルビー・アルファサファイア" />
 
 </RelativeLayout>

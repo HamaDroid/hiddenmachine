@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wazamachine.iml" filepath="$PROJECT_DIR$/wazamachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hiddenmachine.iml" filepath="$PROJECT_DIR$/.idea/hiddenmachine.iml" />
+      <module fileurl="file://C:\Users\daich\Documents\hiddenmachine\wazamachine.iml" filepath="C:\Users\daich\Documents\hiddenmachine\wazamachine.iml" />
     </modules>
   </component>
 </project>
