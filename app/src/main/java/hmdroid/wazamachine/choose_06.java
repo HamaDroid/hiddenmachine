@@ -16,12 +16,12 @@ public class choose_06 extends AppCompatActivity {
         Intent intent = new Intent(this,whirlpool.class);
         startActivity(intent);
     }
-    public void rg(View view){
-        Intent intent = new Intent(this,water_fall.class);
-            startActivity(intent);
-    }
-    public  void bwO2(View view){
+    public void bwO2(View view){
         Intent intent = new Intent(this,dive.class);
+        startActivity(intent);
+        }
+    public  void rhg(View view){
+        Intent intent = new Intent(this,hmdroid.hiddenmachine.rocksmash.class);
         startActivity(intent);
     }
 }

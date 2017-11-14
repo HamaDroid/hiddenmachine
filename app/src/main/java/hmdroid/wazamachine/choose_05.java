@@ -25,5 +25,9 @@ public class choose_05 extends AppCompatActivity {
         Intent intent = new Intent (this,whirlpool.class);
         startActivity(intent);
     }
+    public void bwOH(View view){
+        Intent intent = new Intent(this,waterfall.class);
+        startActivity(intent);
+    }
 }
 

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hmdroid.wazamachine.dive">
+    tools:context="hmdroid.hiddenmachine.rocksmash">
 
     <TextView
-        android:id="@+id/textView129"
+        android:id="@+id/textView144"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -15,17 +15,17 @@
         android:layout_alignParentTop="true"
         android:paddingLeft="45dp"
         android:paddingTop="20dp"
-        android:text="名前:ダイビング"
+        android:text="名前:いわくだき"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView131"
+        android:id="@+id/textView145"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView129"
+        android:layout_below="@+id/textView144"
         android:layout_marginLeft="14dp"
         android:layout_marginStart="14dp"
         android:text="タイプ:"
@@ -33,131 +33,108 @@
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView132"
+        android:id="@+id/textView146"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView131"
-        android:layout_alignBottom="@+id/textView131"
-        android:layout_toEndOf="@+id/textView131"
-        android:layout_toRightOf="@+id/textView131"
-        android:text="水"
-        android:textColor="@color/水"
+        android:layout_alignBottom="@+id/textView145"
+        android:layout_toEndOf="@+id/textView145"
+        android:layout_toRightOf="@+id/textView145"
+        android:text="格闘"
+        android:textColor="@color/格闘"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView133"
+        android:id="@+id/textView147"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView131"
-        android:layout_alignStart="@+id/textView131"
-        android:layout_below="@+id/textView131"
+        android:layout_below="@+id/textView145"
+        android:layout_toLeftOf="@+id/textView146"
+        android:layout_toStartOf="@+id/textView146"
         android:text="命中率:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView134"
+        android:id="@+id/textView148"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView133"
-        android:layout_toEndOf="@+id/textView133"
-        android:layout_toRightOf="@+id/textView133"
+        android:layout_alignBaseline="@+id/textView147"
+        android:layout_alignBottom="@+id/textView147"
+        android:layout_toEndOf="@+id/textView145"
+        android:layout_toRightOf="@+id/textView145"
         android:text="100"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView135"
+        android:id="@+id/textView149"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView133"
-        android:layout_toLeftOf="@+id/textView134"
-        android:layout_toStartOf="@+id/textView134"
+        android:layout_below="@+id/textView147"
+        android:layout_toLeftOf="@+id/textView148"
+        android:layout_toStartOf="@+id/textView148"
         android:text="PP:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView136"
+        android:id="@+id/textView150"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView135"
-        android:layout_toEndOf="@+id/textView133"
-        android:layout_toRightOf="@+id/textView133"
-        android:text="10"
-        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/textView147"
+        android:layout_toEndOf="@+id/textView147"
+        android:layout_toRightOf="@+id/textView147"
+        android:text="15"
+        android:textColor="@android:color/holo_orange_light"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView137"
+        android:id="@+id/textView151"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView135"
-        android:layout_alignRight="@+id/textView135"
-        android:layout_below="@+id/textView135"
+        android:layout_alignEnd="@+id/textView149"
+        android:layout_alignRight="@+id/textView149"
+        android:layout_below="@+id/textView149"
         android:text="威力:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView138"
+        android:id="@+id/textView152"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView137"
-        android:layout_alignBottom="@+id/textView137"
-        android:layout_toEndOf="@+id/textView137"
-        android:layout_toRightOf="@+id/textView137"
+        android:layout_alignBaseline="@+id/textView151"
+        android:layout_alignBottom="@+id/textView151"
+        android:layout_toEndOf="@+id/textView151"
+        android:layout_toRightOf="@+id/textView151"
         android:text="RS以前"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView139"
+        android:id="@+id/textView153"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView137"
-        android:layout_toEndOf="@+id/textView135"
-        android:layout_toRightOf="@+id/textView135"
+        android:layout_below="@+id/textView151"
+        android:layout_toEndOf="@+id/textView149"
+        android:layout_toRightOf="@+id/textView149"
         android:text="DP以降"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView140"
+        android:id="@+id/textView154"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView138"
-        android:layout_alignBottom="@+id/textView138"
-        android:layout_toEndOf="@+id/textView138"
-        android:layout_toRightOf="@+id/textView138"
-        android:text="60"
-        android:textColor="@android:color/holo_green_light"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/textView141"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView139"
-        android:layout_toEndOf="@+id/textView139"
-        android:layout_toRightOf="@+id/textView139"
-        android:text="80"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/textView142"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView137"
-        android:layout_alignStart="@+id/textView137"
-        android:layout_below="@+id/textView139"
+        android:layout_alignLeft="@+id/textView151"
+        android:layout_alignStart="@+id/textView151"
+        android:layout_below="@+id/textView153"
         android:text="分類:物理"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView143"
+        android:id="@+id/textView155"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -168,4 +145,27 @@
         android:textColor="@color/colorAccent"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView153"
+        android:layout_toEndOf="@+id/textView153"
+        android:layout_toRightOf="@+id/textView153"
+        android:text="20"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView153"
+        android:layout_alignBottom="@+id/textView153"
+        android:layout_toEndOf="@+id/textView153"
+        android:layout_toRightOf="@+id/textView153"
+        android:text="40"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp" />
 </RelativeLayout>

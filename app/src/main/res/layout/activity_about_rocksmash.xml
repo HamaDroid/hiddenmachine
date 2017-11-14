@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hmdroid.wazamachine.about_surf">
+    tools:context="hmdroid.hiddenmachine.about_rocksmash">
 
     <TextView
-        android:id="@+id/textView48"
+        android:id="@+id/textView158"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -16,36 +16,21 @@
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:paddingTop="10dp"
-        android:text="水タイプの中では命中率も威力も高いので作者的には大好きな技です! 　また、フィールド上では水面を移動できる技です。"
+        android:text="フィールドでは一部の岩を砕いて道を通行できるようにできます。　　　　　　　　　　　　　　バトルでは50%の確率で相手の防御を下げられます。"
         android:textColor="@android:color/black"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/textView49"
+        android:id="@+id/textView159"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView50"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView158"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:paddingTop="10dp"
-        android:text="注意:DP以降で2対２のバトルをする場合は味方にも攻撃が及びます!!"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="24sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView48"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:paddingTop="10dp"
-        android:text="ヒント:釣りでコイキング以外のポケモンを釣りたいですか？ならば近くの水辺でこの技を覚えたポケモンと行きましょう!"
+        android:text="ヒント:攻撃が弱いのでバトルでは防御を下げる目的やポケモンをゲットする前にぎりぎりまでHPを下げること以外に使わないほうがいいでしょう"
         android:textColor="@android:color/holo_green_light"
         android:textSize="18sp" />
 
@@ -55,9 +40,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="14dp"
-        android:layout_marginStart="14dp"
+        android:layout_below="@+id/textView159"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="37dp"
         android:text="この技が弱点のタイプは..."
         android:textSize="18sp" />
 
@@ -65,13 +51,12 @@
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView51"
+        android:layout_alignStart="@+id/textView51"
         android:layout_below="@+id/textView51"
-        android:layout_marginTop="25dp"
-        android:layout_toLeftOf="@+id/textView53"
-        android:layout_toStartOf="@+id/textView53"
+        android:layout_marginTop="24dp"
         android:paddingRight="8dp"
-        android:text="ほのお"
-        android:textColor="@android:color/holo_orange_dark"
+        android:text="ノーマル"
         android:textSize="24sp" />
 
     <TextView
@@ -80,13 +65,11 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView52"
         android:layout_alignBottom="@+id/textView52"
-        android:layout_alignEnd="@+id/textView51"
-        android:layout_alignRight="@+id/textView51"
-        android:layout_marginEnd="17dp"
-        android:layout_marginRight="17dp"
-        android:text="いわ"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/岩"
+        android:layout_toEndOf="@+id/textView52"
+        android:layout_toRightOf="@+id/textView52"
+        android:text="こおり"
+        android:textColor="@android:color/holo_blue_dark"
         android:textSize="24sp" />
 
     <TextView
@@ -95,12 +78,36 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView53"
         android:layout_alignBottom="@+id/textView53"
-        android:layout_marginLeft="48dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
         android:layout_toEndOf="@+id/textView52"
         android:layout_toRightOf="@+id/textView52"
         android:paddingLeft="8dp"
-        android:text="じめん"
-        android:textColor="@color/地面"
+        android:text="いわ"
+        android:textColor="@color/岩"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView160"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView54"
+        android:layout_toEndOf="@+id/textView54"
+        android:layout_toRightOf="@+id/textView54"
+        android:paddingLeft="5dp"
+        android:text="あく"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView160"
+        android:layout_toEndOf="@+id/textView160"
+        android:layout_toRightOf="@+id/textView160"
+        android:paddingRight="5dp"
+        android:text="はがね"
+        android:textColor="@android:color/darker_gray"
         android:textSize="24sp" />
 </RelativeLayout>

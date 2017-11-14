@@ -10,9 +10,9 @@
         android:id="@+id/textView116"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
         android:text="水上では渦の上を移動できます。バトルでは相手を4~5ターンの間だけ渦に沈めることができます。"
         android:textColor="@android:color/black"
         android:textSize="24sp" />
@@ -21,10 +21,68 @@
         android:id="@+id/textView118"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textView116"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
         android:text="ヒント:相手の交代を封じ込めるだけなのでこちらも強い攻撃を使用したほうがいいです。"
         android:textColor="@android:color/holo_green_light" />
 
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView118"
+        android:layout_alignStart="@+id/textView118"
+        android:layout_below="@+id/textView118"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="31dp"
+        android:text="この技が弱点のタイプは..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView51"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/textView53"
+        android:layout_toStartOf="@+id/textView53"
+        android:paddingRight="8dp"
+        android:text="ほのお"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView52"
+        android:layout_alignBottom="@+id/textView52"
+        android:layout_alignEnd="@+id/textView51"
+        android:layout_alignRight="@+id/textView51"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:text="いわ"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/岩"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView53"
+        android:layout_alignBottom="@+id/textView53"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_toEndOf="@+id/textView52"
+        android:layout_toRightOf="@+id/textView52"
+        android:paddingLeft="8dp"
+        android:text="じめん"
+        android:textColor="@color/地面"
+        android:textSize="24sp" />
 </RelativeLayout>

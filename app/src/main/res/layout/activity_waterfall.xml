@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hmdroid.wazamachine.strength">
+    tools:context="hmdroid.wazamachine.waterfall">
 
     <TextView
-        android:id="@+id/textView61"
+        android:id="@+id/textView130"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -15,116 +15,114 @@
         android:layout_alignParentTop="true"
         android:paddingLeft="45dp"
         android:paddingTop="20dp"
-        android:text="名前:かいりき"
+        android:text="名前:たきのぼり"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView62"
+        android:id="@+id/textView174"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView63"
-        android:layout_alignBottom="@+id/textView63"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView183"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:paddingLeft="10dp"
-        android:text="タイプ:"
-        android:textColor="@android:color/black"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/textView63"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView61"
-        android:layout_toEndOf="@+id/textView62"
-        android:layout_toRightOf="@+id/textView62"
-        android:text="ノーマル"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/textView64"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView62"
-        android:layout_alignStart="@+id/textView62"
-        android:layout_below="@+id/textView62"
         android:text="命中率:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView65"
+        android:id="@+id/textView182"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView64"
-        android:layout_toEndOf="@+id/textView64"
-        android:layout_toRightOf="@+id/textView64"
+        android:layout_below="@+id/textView183"
+        android:layout_toEndOf="@+id/textView174"
+        android:layout_toRightOf="@+id/textView174"
         android:text="100"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView66"
+        android:id="@+id/textView183"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView64"
-        android:layout_toLeftOf="@+id/textView65"
-        android:layout_toStartOf="@+id/textView65"
+        android:layout_alignLeft="@+id/textView174"
+        android:layout_alignStart="@+id/textView174"
+        android:layout_below="@+id/textView130"
+        android:text="タイプ:"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView184"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView174"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/textView182"
+        android:layout_toStartOf="@+id/textView182"
         android:text="PP:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView67"
+        android:id="@+id/textView185"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView66"
-        android:layout_alignBottom="@+id/textView66"
-        android:layout_toEndOf="@+id/textView66"
-        android:layout_toRightOf="@+id/textView66"
-        android:text="15"
-        android:textColor="@android:color/holo_orange_light"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/textView68"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView66"
-        android:layout_alignRight="@+id/textView66"
-        android:layout_below="@+id/textView66"
+        android:layout_alignEnd="@+id/textView184"
+        android:layout_alignRight="@+id/textView184"
+        android:layout_below="@+id/textView184"
         android:text="威力:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView69"
+        android:id="@+id/textView186"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView68"
-        android:layout_alignBottom="@+id/textView68"
-        android:layout_toEndOf="@+id/textView66"
-        android:layout_toRightOf="@+id/textView66"
-        android:text="80"
-        android:textColor="@android:color/holo_green_light"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/textView70"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView68"
-        android:layout_alignStart="@+id/textView68"
-        android:layout_below="@+id/textView69"
+        android:layout_alignLeft="@+id/textView185"
+        android:layout_alignStart="@+id/textView185"
+        android:layout_below="@+id/textView185"
         android:text="分類:物理"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView72"
+        android:id="@+id/textView187"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView174"
+        android:layout_toEndOf="@+id/textView174"
+        android:layout_toRightOf="@+id/textView174"
+        android:text="水"
+        android:textColor="@color/水"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView188"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView186"
+        android:layout_toEndOf="@+id/textView185"
+        android:layout_toRightOf="@+id/textView185"
+        android:text="80"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView189"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView188"
+        android:layout_toEndOf="@+id/textView185"
+        android:layout_toRightOf="@+id/textView185"
+        android:text="15"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView190"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -135,5 +133,4 @@
         android:textColor="@color/colorAccent"
         android:textSize="30sp"
         android:textStyle="bold" />
-
 </RelativeLayout>

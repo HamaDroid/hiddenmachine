@@ -114,10 +114,10 @@
         android:id="@+id/textView84"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView83"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp"
         android:onClick="about"
+        android:paddingBottom="50dp"
         android:text="詳細"
         android:textColor="@color/colorAccent"
         android:textSize="30sp"
@@ -130,7 +130,7 @@
         android:layout_alignLeft="@+id/textView83"
         android:layout_alignStart="@+id/textView83"
         android:layout_below="@+id/textView80"
-        android:text="威力:N/A(変化のため)"
+        android:text="威力:N/A"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 </RelativeLayout>

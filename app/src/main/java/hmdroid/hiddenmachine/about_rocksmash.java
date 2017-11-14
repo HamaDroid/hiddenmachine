@@ -1,13 +1,15 @@
-package hmdroid.wazamachine;
+package hmdroid.hiddenmachine;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class water_fall extends AppCompatActivity {
+import hmdroid.wazamachine.R;
+
+public class about_rocksmash extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_water_fall);
+        setContentView(R.layout.activity_about_rocksmash);
     }
 }

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hmdroid.wazamachine.water_fall">
+    tools:context="hmdroid.hiddenmachine.rockclimb">
 
     <TextView
-        android:id="@+id/textView119"
+        android:id="@+id/textView164"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -15,111 +15,109 @@
         android:layout_alignParentTop="true"
         android:paddingLeft="45dp"
         android:paddingTop="20dp"
-        android:text="名前:たきのぼり"
+        android:text="名前:ロッククライム"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView120"
+        android:id="@+id/textView165"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView119"
-        android:layout_marginLeft="14dp"
-        android:layout_marginStart="14dp"
+        android:layout_below="@+id/textView164"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
         android:text="タイプ:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView121"
+        android:id="@+id/textView166"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView120"
-        android:layout_alignBottom="@+id/textView120"
-        android:layout_toEndOf="@+id/textView120"
-        android:layout_toRightOf="@+id/textView120"
-        android:text="水"
-        android:textColor="#2196F3"
+        android:layout_alignBaseline="@+id/textView165"
+        android:layout_alignBottom="@+id/textView165"
+        android:layout_toEndOf="@+id/textView165"
+        android:layout_toRightOf="@+id/textView165"
+        android:text="ノーマル"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView122"
+        android:id="@+id/textView167"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView123"
-        android:layout_alignBottom="@+id/textView123"
-        android:layout_alignLeft="@+id/textView120"
-        android:layout_alignStart="@+id/textView120"
+        android:layout_alignLeft="@+id/textView165"
+        android:layout_alignStart="@+id/textView165"
+        android:layout_below="@+id/textView165"
         android:text="命中率:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView123"
+        android:id="@+id/textView168"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView121"
-        android:layout_toEndOf="@+id/textView122"
-        android:layout_toRightOf="@+id/textView122"
-        android:text="100"
-        android:textColor="@android:color/holo_green_dark"
+        android:layout_alignBottom="@+id/textView167"
+        android:layout_toEndOf="@+id/textView167"
+        android:layout_toRightOf="@+id/textView167"
+        android:text="85"
+        android:textColor="@android:color/holo_green_light"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView124"
+        android:id="@+id/textView169"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView122"
-        android:layout_toLeftOf="@+id/textView123"
-        android:layout_toStartOf="@+id/textView123"
+        android:layout_below="@+id/textView167"
+        android:layout_toLeftOf="@+id/textView168"
+        android:layout_toStartOf="@+id/textView168"
         android:text="PP:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView125"
+        android:id="@+id/textView170"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView124"
-        android:layout_toEndOf="@+id/textView122"
-        android:layout_toRightOf="@+id/textView122"
-        android:text="15"
+        android:layout_alignBottom="@+id/textView169"
+        android:layout_toEndOf="@+id/textView169"
+        android:layout_toRightOf="@+id/textView169"
+        android:text="20"
         android:textColor="@android:color/holo_orange_light"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView126"
+        android:id="@+id/textView171"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView124"
-        android:layout_alignRight="@+id/textView124"
-        android:layout_below="@+id/textView124"
+        android:layout_alignEnd="@+id/textView167"
+        android:layout_alignRight="@+id/textView167"
+        android:layout_below="@+id/textView169"
         android:text="威力:"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView127"
+        android:id="@+id/textView172"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView126"
-        android:layout_toEndOf="@+id/textView126"
-        android:layout_toRightOf="@+id/textView126"
-        android:text="80"
-        android:textColor="@android:color/holo_green_dark"
+        android:layout_alignLeft="@+id/textView171"
+        android:layout_alignStart="@+id/textView171"
+        android:layout_below="@+id/textView171"
+        android:text="分類:物理"
+        android:textColor="@android:color/black"
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/textView128"
+        android:id="@+id/textView173"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView126"
-        android:layout_alignStart="@+id/textView126"
-        android:layout_below="@+id/textView126"
-        android:text="分類:物理"
-        android:textColor="@android:color/black"
+        android:layout_above="@+id/textView172"
+        android:layout_toEndOf="@+id/textView167"
+        android:layout_toRightOf="@+id/textView167"
+        android:text="90"
+        android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp" />
 
     <Button
@@ -127,8 +125,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/textView123"
-        android:layout_toRightOf="@+id/textView123"
+        android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
         android:onClick="about"
         android:paddingBottom="50dp"
@@ -137,5 +134,6 @@
         android:textColor="@color/colorAccent"
         android:textSize="30sp"
         android:textStyle="bold" />
+
 
 </RelativeLayout>

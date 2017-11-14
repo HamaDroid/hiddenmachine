@@ -41,7 +41,7 @@
         android:layout_toEndOf="@+id/textView36"
         android:layout_toRightOf="@+id/textView36"
         android:text="水"
-        android:textColor="#2196F3"
+        android:textColor="@color/水"
         android:textSize="30sp" />
 
     <TextView
@@ -159,13 +159,13 @@
         android:id="@+id/about_surf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView47"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp"
+        android:layout_gravity="center_horizontal"
         android:onClick="about"
+        android:paddingBottom="50dp"
         android:text="詳細"
         android:textColor="@color/colorAccent"
-        android:layout_gravity="center_horizontal"
         android:textSize="30sp"
         android:textStyle="bold" />
 </RelativeLayout>

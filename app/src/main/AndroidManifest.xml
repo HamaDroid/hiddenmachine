@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,8 +35,15 @@
         <activity android:name=".about_defog" />
         <activity android:name=".whirlpool" />
         <activity android:name=".about_whirlpool" />
-        <activity android:name=".water_fall" />
-        <activity android:name=".dive"></activity>
+        <activity android:name=".dive" />
+        <activity android:name="hmdroid.hiddenmachine.rocksmash" />
+        <activity android:name="hmdroid.hiddenmachine.about_rocksmash" />
+        <activity android:name=".about_dive" />
+        <activity android:name="hmdroid.hiddenmachine.rockclimb" />
+        <activity android:name="hmdroid.hiddenmachine.about_rockclimb" />
+        <activity android:name="hmdroid.hiddenmachine.about_waterfall" />
+        <activity android:name=".about_waterfall" />
+        <activity android:name=".waterfall"></activity>
     </application>
 
 </manifest>

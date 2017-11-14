@@ -1,5 +1,6 @@
 package hmdroid.wazamachine;
 
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,8 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-    public void cut(View view) {
+        public void cut(View view) {
         Intent intent = new Intent(this, cut.class);
         startActivity(intent);
     }
